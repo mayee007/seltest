@@ -17,8 +17,9 @@ public class SeleniumBasicTest {
 	@Before
 	public void beforeTest() {	
 		System.setProperty("webdriver.chrome.driver",
-	            "/home/vagrant/workspace/Testing/chromedriver");
-			// "C:\\Users\\mayee\\sts_workspace\\seltest\\chromedriver.exe");
+	        "C:\\Users\\mayee\\sts_workspace\\seltest\\chromedriver.exe");
+//	    "/home/vagrant/workspace/Testing/chromedriver");
+		
 	    driver = new ChromeDriver();  
 	}	
 	
