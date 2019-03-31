@@ -12,5 +12,15 @@ public class SeltestApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test 
+	public void test1() { 
+		System.out.println("inside test1");
+	}
+	
+	@Test 
+	public void test2() { 
+		System.out.println("inside test2");
+	}
 
 }
